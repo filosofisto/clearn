@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void show(const char* name, Vector& vector)
+void show(const string name, Vector& vector)
 {
     for (int i = 0; i < vector.size(); i++)
         cout << name << "[" << i << "]: " << vector[i] << endl;
