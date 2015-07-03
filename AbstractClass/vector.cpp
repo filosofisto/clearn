@@ -3,14 +3,7 @@
 Vector::Vector(int s): _elem{new double[s]}, _size{s}
 {
     for (int i = 0; i < s; i++)
-        elem[i] = 0;
-}
-
-Vector::Vector(std::initializer_list<double> list):
-    _elem{new double[list.size()]},
-    _size{static_cast<int>(list.size)}
-{
-    copy(list.begin(), list.end(), _elem);
+        _elem[i] = 0;
 }
 
 Vector::~Vector()
