@@ -3,7 +3,11 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.cpp
+QMAKE_CXXFLAGS += -std=c++0x -pthread
+LIBS += -pthread
+
+SOURCES += \
+    main.cpp
 
 include(deployment.pri)
 qtcAddDeployment()
