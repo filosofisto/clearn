@@ -10,7 +10,7 @@ using namespace std;
 struct thread_data
 {
   int thread_id;
-  char *message;
+  string message;
 };
 
 void *printHello(void *thread_arg)
@@ -36,9 +36,9 @@ int main()
         cout << "main(): creating thread, " << i << endl;
 
         td[i].thread_id = i;
-        td[i].message = strcpy("Message ", ""+i);
+        td[i].message = "Message"+i;
 
-        rc = (&threads[i], NULL, printHello, (void*) &td[i]);
+        rc = pthread_create(&threads[i], NULL, printHello, (void*) &td[i]);
 
         if (rc)
         {
