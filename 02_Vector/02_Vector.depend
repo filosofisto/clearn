@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1436303921 source:/run/media/filosofisto/Data/clearn/02_Vector/src/main.cpp
+	<iostream>
+	"vector.h"
+	<cmath>
+
+1436304684 /run/media/filosofisto/Data/clearn/02_Vector/include/vector.h
+	<initializer_list>
+
+1436304679 source:/run/media/filosofisto/Data/clearn/02_Vector/src/vector.cpp
+	"vector.h"
+
