@@ -8,7 +8,7 @@ QT       += core
 
 QT       -= gui
 
-TARGET = Prj01
+TARGET = 01_Hello
 CONFIG   += console
 CONFIG   -= app_bundle
 
