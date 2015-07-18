@@ -42,3 +42,5 @@ qt/build*
 Debug/*
 *.opensdf
 
+**/Debug/*
+
