@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1437243827 source:/run/media/filosofisto/Data/clearn/codeblock/03_Complex/main.cpp
+	<iostream>
+
+1437244059 source:/run/media/filosofisto/Data/clearn/codeblock/03_Complex/src/Complex.cpp
+	"Complex.h"
+
+1437243945 /run/media/filosofisto/Data/clearn/codeblock/03_Complex/include/Complex.h
+
