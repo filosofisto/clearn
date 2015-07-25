@@ -35,8 +35,12 @@ Makefile*
 
 /build-*
 /bin/*
+qt/build*
+
 
 #Visual C++
 Debug/*
 *.opensdf
+
+**/Debug/*
 
